@@ -1,0 +1,88 @@
+@font-face {
+    font-family: "Pokemon-Hollow";
+    src: url("../fonts/Pokemon-Hollow.woff") format('woff');
+}
+
+
+@font-face {
+    font-family: "Pokemon-Solid";
+    src: url("../fonts/Pokemon-Solid.woff") format('woff');
+}
+
+
+
+
+p,h1,h2,h3,h4,h5{
+    font-family: Pokemon-Hollow;
+    letter-spacing: 3px;
+}
+
+
+.vertical-row {
+ Float:left;
+ height:100px;
+ width:1px; /* edit this if you want */
+} 
+
+
+
+
+.box-wraper
+{
+background-color: rgb(134, 47, 47);
+  color: rgb(255, 242, 242);
+  border-radius: 5px;
+  padding: 20px;
+  font-size: 100%;
+  
+}
+
+.card-name,.card-desc
+{
+    text-align: center;
+    text-transform: uppercase;
+    padding-bottom:15px
+}
+
+
+.wraper-description
+{
+    display: flex
+}
+
+.move-stats
+{
+    flex:1
+}
+
+.card-img
+{text-align: center}
+
+.stats p
+{
+    padding-left:20px;
+}
+
+
+@media only screen and (min-width: 900px)  {
+.zoom {
+  transition: transform .4s; /* Animation */
+}
+
+.zoom:hover {
+  transform: scale(1.1); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}}
+
+
+
+
+
+@media only screen and (max-width: 500px)  {
+.stats p
+{
+    padding-left:0px;
+}
+
+}
+
+
