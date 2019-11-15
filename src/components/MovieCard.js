@@ -9,9 +9,6 @@ class MovieCard extends Component {
 
 
     render() {
-        // const listItems = this.props.cardData.map((item) =>
-        //     <li>{item.moves}</li>
-        // );
         return this.props.cardData.map((item) => (
 
             <div className='box-wraper zoom'>

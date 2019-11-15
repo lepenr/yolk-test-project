@@ -1,3 +1,4 @@
+/* FONT load */
 @font-face {
     font-family: "Pokemon-Hollow";
     src: url("../fonts/Pokemon-Hollow.woff") format('woff');
@@ -9,22 +10,18 @@
     src: url("../fonts/Pokemon-Solid.woff") format('woff');
 }
 
-
-
+/* styles */
 
 p,h1,h2,h3,h4,h5{
     font-family: Pokemon-Hollow;
     letter-spacing: 3px;
 }
 
-
 .vertical-row {
  Float:left;
  height:100px;
- width:1px; /* edit this if you want */
+ width:1px; 
 } 
-
-
 
 
 .box-wraper
@@ -63,19 +60,14 @@ background-color: rgb(134, 47, 47);
     padding-left:20px;
 }
 
-
 @media only screen and (min-width: 900px)  {
 .zoom {
-  transition: transform .4s; /* Animation */
+  transition: transform .4s; 
 }
 
 .zoom:hover {
-  transform: scale(1.1); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+  transform: scale(1.1); 
 }}
-
-
-
-
 
 @media only screen and (max-width: 500px)  {
 .stats p
